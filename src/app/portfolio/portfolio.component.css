@@ -1,0 +1,54 @@
+.portfolio {
+  min-height: 100vh;
+}
+.icons-style::after {
+  background-color: var(--main-color);
+}
+.icons-style::before {
+  background-color: var(--main-color);
+}
+.contact h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.layer {
+  position: absolute;
+  width: 94.5%;
+  height: 100%;
+  background: var(--seconed-color);
+  top: 0;
+  opacity: 0;
+  transition: 1s;
+}
+.fa-plus {
+  font-size: 60px;
+  cursor: pointer;
+  /* transform: translateX(50%); */
+}
+.col-md-4:hover .layer {
+  opacity: 85%;
+}
+.col-md-4 {
+  overflow: hidden;
+}
+.light-box {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 255, 0.314);
+}
+.light-box img {
+  width: 40%;
+}
+.modal-content {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: row;
+  border: none;
+  background: transparent;
+}
+
+.modal {
+  background: rgba(0, 0, 255, 0.205);
+}

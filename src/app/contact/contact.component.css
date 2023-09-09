@@ -1,0 +1,54 @@
+.contact {
+  background-color: var(--white-color);
+  color: var(--main-color);
+  min-height: 100vh;
+}
+.icons-style::after {
+  background-color: var(--main-color);
+}
+.icons-style::before {
+  background-color: var(--main-color);
+}
+.contact h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.contact input {
+  padding: 15px;
+  display: inline-block;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+.contact input:focus {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dee2e6;
+  border-radius: 10px;
+}
+.send {
+  background-color: var(--seconed-color);
+  color: var(--white-color);
+  padding: 7px;
+}
+label {
+  color: var(--seconed-color);
+  position: absolute;
+  top: 5%;
+  transition: 1s;
+}
+.age-label {
+  color: var(--seconed-color);
+  position: absolute;
+  top: 23%;
+  left: 44px;
+  transition: 1s;
+  margin: 10px 0 0 0;
+}
+.email-label {
+  top: 41%;
+}
+.pass-label {
+  top: 58%;
+}

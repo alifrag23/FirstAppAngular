@@ -1,0 +1,18 @@
+.navbar {
+  background-color: var(--main-color) !important;
+}
+.navbar ul li {
+  padding: 0 10px;
+}
+.navbar ul li a {
+  color: var(--white-color) !important;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.navbar-brand {
+  font-size: 32px !important;
+  font-weight: 700;
+  color: var(--white-color) !important;
+}
+
+

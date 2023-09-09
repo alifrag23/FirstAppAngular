@@ -1,0 +1,15 @@
+section {
+  background-color: var(--seconed-color);
+  height: 100vh;
+}
+.about h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--white-color);
+}
+.about-info p {
+  color: var(--white-color);
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+}

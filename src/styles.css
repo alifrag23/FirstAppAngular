@@ -1,0 +1,34 @@
+:root {
+  --main-color: #2c3e50;
+  --seconed-color: #1abc9c;
+  --white-color: #fff;
+  --dark-color: #1a252f;
+}
+.icons-style {
+  position: relative;
+}
+.icons-style::before {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: var(--white-color);
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.icons-style::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background-color: var(--white-color);
+  position: absolute;
+  right: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.active-link {
+  /* padding: 5px; */
+  background: var(--seconed-color);
+  border-radius: 5px;
+}

@@ -1,0 +1,50 @@
+<nav
+  class="navbar fixed-top navbar-expand-sm  mb-5 py-2"
+  [style.background-color]="statuse==true?'blue':'red'"
+>
+  <div class="container">
+    <a class="navbar-brand" appScroll routerLink="home">START FRAMEWORK</a>
+    <button
+      class="navbar-toggler d-lg-none"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active-link"
+            routerLink="about"
+            aria-current="page"
+            >About <span class="visually-hidden">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active-link"
+            routerLink="portfolio"
+            aria-current="page"
+            >PORTFOLIO <span class="visually-hidden">(current)</span></a
+          >
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLinkActive="active-link"
+            routerLink="contact"
+            aria-current="page"
+            >Contact <span class="visually-hidden">(current)</span></a
+          >
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

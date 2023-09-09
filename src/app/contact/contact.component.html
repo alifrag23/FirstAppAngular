@@ -1,0 +1,63 @@
+<section class="pt-3">
+  <div
+    class="pt-4 contact d-flex align-items-center justify-content-start flex-column"
+  >
+    <h1 class="mt-5">CONATCT SECTION</h1>
+    <h4 class="icons-style"><i class="fa-solid fa-star"></i></h4>
+    <div class="form p-5 m-4 position-relative">
+      <label
+        for="userName"
+        *ngIf="topStatuse == false"
+        class="ms-3 w-100 m-auto"
+        >userName</label
+      >
+      <input
+        id="userName"
+        (keydown)="write()"
+        class="w-100 mx-auto"
+        type="text"
+        placeholder="userName"
+      />
+      <label
+        *ngIf="topStatuse2 == false"
+        for="userAge"
+        class="ms-3 w-100 m-auto age-label"
+        >userAge</label
+      >
+      <input
+        (keydown)="write2()"
+        class="w-100 mx-auto position-relative"
+        type="number"
+        placeholder="userAge"
+      />
+      <label
+        *ngIf="topStatuse3 == false"
+        for="userEmail"
+        class="ms-3 w-100 m-auto age-label email-label"
+        >userEmail</label
+      >
+      <input
+        (keydown)="write3()"
+        class="w-100 mx-auto"
+        type="email"
+        placeholder="userEmail"
+      />
+      <label
+        *ngIf="topStatuse4 == false"
+        for="userPassword"
+        class="ms-3 w-100 m-auto age-label pass-label"
+        >userPassword</label
+      >
+      <input
+        (keydown)="write4()"
+        class="w-100 mx-auto"
+        type="password"
+        placeholder="userPassword"
+      />
+
+      <button type="button" class="btn send ms-2 me-auto d-block">
+        send massage
+      </button>
+    </div>
+  </div>
+</section>

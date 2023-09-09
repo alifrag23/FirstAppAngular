@@ -1,0 +1,8 @@
+.light-box {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 255, 0.314);
+  }
+.light-box img {
+  width: 40%;
+}

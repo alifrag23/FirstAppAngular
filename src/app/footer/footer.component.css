@@ -1,0 +1,29 @@
+footer {
+  background: var(--main-color);
+  color: var(--white-color);
+  text-align: center;
+}
+footer .col-md-4 {
+  text-align: center;
+}
+footer h3 {
+  font-size: 28px;
+  padding-block: 10px;
+  text-transform: uppercase;
+}
+.social .row {
+  width: 45%;
+}
+.social .row .col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social .row .col-md-3 i {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid var(--white-color);
+  font-size: 18px;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.home {
+  min-height: 100vh;
+  background: var(--seconed-color);
+  color: var(--white-color);
+}
+.home h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.home p {
+  font-size: 17px;
+}
